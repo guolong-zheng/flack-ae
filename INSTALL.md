@@ -29,5 +29,13 @@ analyze time(sec): 0.84
 LOC: 21
 evals: 368 | node: 6
 ===================
-
   ```
+  Explaination of Output:
+  | RANK LIST | The ranking list of suspicious expressions |
+  | analyze time | Total runtime |
+  | # rel        | Number of different relations |
+  | # val        | Number of different values    |
+  | # Slice out  | Number of AST nodes sliced out |
+  | # Total AST  | Number of total AST nodes in the model | 
+  | LOC          | Line of Code of the model   |
+  | evals        | Number of instantiated expressions |
