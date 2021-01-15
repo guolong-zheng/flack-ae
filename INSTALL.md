@@ -9,3 +9,25 @@
   4. Run FLACK on a single model use ```flack loc -f path/to/model -m #/of/instances```. 
 ### Illustrative Example  
   Use ```flack loc -f benchmark/alloyfl/addr.als -m 5``` to run FLACK on ```addr.als``` with ```5``` pairs of instances, if successfully installed, the output will be:
+  ```
+  /flack/benchmark/alloyfl/addr.als:
+example generation time:0.525
+RANK LIST:
+0: lone ((n . (b . listed))) 1.31
+1: n in lookup[b,n] 1.30 
+2: (n . ^((b . listed))) 1.30
+3: l in lookup[b,n] 1.30 
+4: !(n in lookup[b,n]) 1.30
+5: l in (b . entry) 1.17 
+6: l in lookup[b,n] => l in (b . entry) 1.00  => 
+-------------------
+analyze time(sec): 0.84
+# rel: 1
+# val: 3
+# Slice Out: 10
+# Total AST: 74
+LOC: 21
+evals: 368 | node: 6
+===================
+
+  ```
