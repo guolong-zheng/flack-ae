@@ -1,5 +1,5 @@
 ## Artifact of FLACK for ICSE21 Artifact Evaluation
-This is the artifact for ICSE21 submission 295 "FLACK: Counterexample-Guided Fault Localization for Alloy Models". The artifact is publicly available at [![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
+This is the artifact for ICSE21 submission 295 "FLACK: Counterexample-Guided Fault Localization for Alloy Models". The artifact is publicly available at [![DOI](https://doi.org/10.6084/m9.figshare.13439894.v6)
 
 ### Structure of flack/
 - benchmark/alloy/ : Alloy models from AlloyFL
