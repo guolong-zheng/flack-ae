@@ -1,6 +1,11 @@
 # Artifact of FLACK for ICSE21 Artifact Evaluation
 This is the artifact for ICSE21 submission 295 "FLACK: Counterexample-Guided Fault Localization for Alloy Models". The pre-print of the paper is availabe at  **[paper](https://github.com/guolong-zheng/flack-ae/blob/main/paper.pdf)**. The artifact is publicly available at **[DOI](https://doi.org/10.6084/m9.figshare.13439894.v6)**.
 
+# Execution and Reproduce Instructions
+### Download Artifact
+  1. Download the artifact from **[DOI](https://doi.org/10.6084/m9.figshare.13439894.v6)**
+  2. Unzip using ```tar -xvf flack.tar.gz```
+  
 ### Structure of flack/
 - benchmark/alloy/ : Alloy models from AlloyFL
 
@@ -16,8 +21,6 @@ This is the artifact for ICSE21 submission 295 "FLACK: Counterexample-Guided Fau
 
 - AlloyFL/         : replication package to compare with AlloyFL
 
-
-# Execution and Reproduce Instructions
 ### Run in Docker(Recommended)
   1. Get Docker(https://www.docker.com/)
   2. In directory ```flack/```, build the docker image use ```docker build -t flack .```
