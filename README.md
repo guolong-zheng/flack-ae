@@ -17,15 +17,15 @@ This is the artifact for ICSE21 submission 295 "FLACK: Counterexample-Guided Fau
 - AlloyFL/         : replication package for AlloyFL
 
 
-### Execution Instructions
-# Run in Docker(Recommended)
+# Execution Instructions
+### Run in Docker(Recommended)
   1. Get Docker(https://www.docker.com/)
   2. In directory "flack/", build the docker image use "docker build -t flack ."
   3. Run docker use "docker run -it flack"
   4. Generate table 3 use "flack icse21", result will be written to result.cvs (please note that the ranking information is missing and has to be manually checked, and due to the randomness of solvers, the numbers may be slightly different)
   5. Run FLACK on a single model use "flack loc -f path/to/model -m #/of/instances" 
 
-# Build from source
+### Build from source
   1. Requirement:
 	- Linux
 	- bash
