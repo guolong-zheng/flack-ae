@@ -31,7 +31,7 @@ evals: 368 | node: 6
 ===================
   ```
   Explaination of Output:
-  | a | b |
+  | Output | Explaination |
   | ----------- | ------------- |
   | RANK LIST | The ranking list of suspicious expressions |
   | analyze time | Total runtime |
